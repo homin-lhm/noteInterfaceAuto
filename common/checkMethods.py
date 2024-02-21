@@ -28,3 +28,6 @@ class CheckMethod(unittest.TestCase):
             else:
                 self.assertEqual(v, actual[k], msg=f'key:【{k}】 value error!')
 
+
+print("abc")
+
